@@ -1,0 +1,78 @@
+@import 'reset-css';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700&display=swap');
+
+.weather-card {
+    box-shadow:  0 3px 10px rgba(13, 17, 35, 0.5);
+    float: left;
+    height: 250px;
+    background-color: #324c67;
+    display: flex;
+    width: 440px;
+    border-radius: 15px;
+}
+
+.weather-information {
+    color: white;
+    padding: 15px 0 0 15px ;
+}
+
+.temperature {
+    font-size: 80px;
+    margin-bottom: 5px;
+}
+
+.weather-description {
+    display: flex;
+    font-weight: 200;
+    text-transform: capitalize;
+    align-items: center;
+}
+
+.small-icon {
+    height: 35px;
+}
+
+.line {
+    width: 180px;
+    height: 1px;
+    background-color: white;
+    margin-bottom: 7px;
+}
+
+.wind {
+    font-weight: 200;
+    margin-bottom: 7px;
+}
+
+.humidity {
+    font-weight: 200;
+}
+
+.big-icon {
+    width: 215px;
+    padding-left: 15px;
+}
+
+.weather-box {
+    min-height: 250px;
+}
+
+.loader {
+    width: 48px;
+    height: 48px;
+    margin-top: 105px;
+    margin-right: 190px;
+    border: 5px solid #FFF;
+    border-bottom-color: transparent;
+    border-radius: 50%;
+    animation: rotation 1s linear infinite;
+}
+
+@keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}

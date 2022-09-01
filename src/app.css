@@ -1,0 +1,40 @@
+@import 'reset-css';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+}
+
+.content-wrapper {
+    background-image: url("https://images.pexels.com/photos/5726194/pexels-photo-5726194.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    width: 50%;
+    margin: auto;
+    display: flex;
+    padding: 15px;
+    justify-content: space-between;
+    min-height: 200px;
+    border-radius: 15px;
+}
+
+.cities-list {
+    width: 40%;
+    color: white;
+}
+
+.list-header {
+    font-weight: bold;
+    margin-bottom: 15px;
+    font-size: 22px;
+}
+
+.city-name {
+    cursor: pointer;
+    margin-bottom: 8px;
+    font-weight: 200
+}
+
+.active-city {
+    font-weight: bold;
+}
+
