@@ -7,13 +7,13 @@ body {
 }
 
 .content-wrapper {
-    background-image: url("https://images.pexels.com/photos/5726194/pexels-photo-5726194.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
-    width: 50%;
-    margin: auto;
     display: flex;
-    padding: 15px;
     justify-content: space-between;
+    width: 50%;
     min-height: 200px;
+    margin: auto;
+    padding: 15px;
+    background-image: url("https://images.pexels.com/photos/5726194/pexels-photo-5726194.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
     border-radius: 15px;
 }
 

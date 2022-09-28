@@ -1,8 +1,7 @@
 import { useState, useEffect } from "react";
 import { citiesConfig, cityNames, baseUrl, apiKey } from "./constants";
-import Index from "./components/WeatherCard";
-import './app.css';
-
+import WeatherCard from "./components/WeatherCard";
+import "./app.css";
 
 
 function App() {
@@ -40,7 +39,7 @@ function App() {
           ))}
         </ul>
       </div>
-      <Index weatherData = {weatherData} isLoading = {isLoading}/>
+      <WeatherCard weatherData={weatherData} isLoading={isLoading}/>
     </div>
   );
 }
